@@ -1,0 +1,31 @@
+{
+   "name": "inventariocondorapi",
+   "version": "1.0.0",
+   "description": "",
+   "devDependencies": {
+      "@types/bcryptjs": "^2.4.2",
+      "@types/cors": "^2.8.12",
+      "@types/express": "^4.17.13",
+      "@types/jsonwebtoken": "^8.5.6",
+      "@types/node": "^8.10.66",
+      "ts-node": "3.3.0",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.5.2"
+   },
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "class-validator": "^0.13.2",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "helmet": "^4.6.0",
+      "jsonwebtoken": "^8.5.1",
+      "multer": "^1.4.5-lts.1",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.41"
+   },
+   "scripts": {
+      "tsc": "ts-node-dev ./src/index.ts",
+      "dev": "set debug=* && ts-node-dev  --trace-deprecation  --respawn --transpile-only ./src/index.ts"
+   }
+}
